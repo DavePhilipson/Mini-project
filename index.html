@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mini Project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section>
@@ -18,35 +18,43 @@
         </ul>
       </nav>
       <header>
-        <div>
-          Best Place to learn frontend
-          <p>
-            Go from being an absolute beginner to pro with a simplified process
-          </p>
-          <button>Start Now</button>
+        <div class="row">
+          <div>
+            <h1>Best Place to learn frontend</h1>
+            <p class="subheader">
+              Go from being an absolute beginner to pro with a simplified
+              process
+            </p>
+            <button>Start Now</button>
+          </div>
+          <figure>
+            <img
+              src="./HTML Practise Assets/laptop.png"
+              alt="Home page image"
+            />
+          </figure>
         </div>
-        <figure>
-          <img src="./HTML Practise Assets/laptop.png" alt="Home page image" />
-        </figure>
       </header>
     </section>
 
     <main>
       <section id="about">
         <h2>About</h2>
-        <div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-            facere praesentium! Blanditiis nobis necessitatibus nesciunt?
-          </p>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-            facere praesentium! Blanditiis nobis necessitatibus nesciunt?
-          </p>
+        <div class="section__description">
+          <div class="section__description--wrapper">
+            <p class="section__description--para">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+              facere praesentium! Blanditiis nobis necessitatibus nesciunt?
+            </p>
+            <p class="section__description--para">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+              facere praesentium! Blanditiis nobis necessitatibus nesciunt?
+            </p>
+          </div>
+          <figure class="about__img--wrapper">
+            <img src="./HTML Practise Assets/about.jpg" alt="" />
+          </figure>
         </div>
-        <figure>
-          <img src="./HTML Practise Assets/about.jpg" alt="" />
-        </figure>
       </section>
 
       <section id="discord">
